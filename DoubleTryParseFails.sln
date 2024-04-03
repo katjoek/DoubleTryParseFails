@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleTryParseFails", "DoubleTryParseFails.csproj", "{0FE7DCF4-69E4-4E7B-99E6-C2342203A2A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repro-100397", "Repro-100397\Repro-100397.csproj", "{9CA1DD6D-A546-4A93-A91C-FD0422F122CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0FE7DCF4-69E4-4E7B-99E6-C2342203A2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE7DCF4-69E4-4E7B-99E6-C2342203A2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE7DCF4-69E4-4E7B-99E6-C2342203A2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA1DD6D-A546-4A93-A91C-FD0422F122CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA1DD6D-A546-4A93-A91C-FD0422F122CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA1DD6D-A546-4A93-A91C-FD0422F122CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA1DD6D-A546-4A93-A91C-FD0422F122CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
