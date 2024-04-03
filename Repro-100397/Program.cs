@@ -11,8 +11,13 @@ var options = new JsonSerializerOptions
 };
 var jsonString = JsonSerializer.Serialize(CultureInfo.CurrentCulture, options);
 Console.WriteLine(jsonString);
+Console.WriteLine();
 
-var str = "2,000.000";
-var success = double.TryParse(str, NumberStyles.Any, CultureInfo.CurrentCulture, out var value);
+double value1 = 2000;
+var str = value1.ToString("N5");
+Console.WriteLine($"str: {str}");
+
+var success = double.TryParse(str, NumberStyles.Any, CultureInfo.CurrentCulture, out double value2);
 Console.WriteLine($"success: {success}");
-Console.WriteLine($"value: {value}");
+Console.WriteLine($"value: {value2}");
+
