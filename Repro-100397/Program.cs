@@ -4,11 +4,7 @@ using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-var options = new JsonSerializerOptions
-{
-    WriteIndented = true,
-    ReferenceHandler = ReferenceHandler.IgnoreCycles,
-};
+var options = new JsonSerializerOptions { WriteIndented = true, ReferenceHandler = ReferenceHandler.IgnoreCycles };
 var jsonString = JsonSerializer.Serialize(CultureInfo.CurrentCulture, options);
 Console.WriteLine(jsonString);
 Console.WriteLine();
